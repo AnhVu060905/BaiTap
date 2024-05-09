@@ -1,0 +1,37 @@
+.background {
+    -fx-background-radius: 10 0 10 0;
+    -fx-background-color: #77c5f3;
+}
+.text-clock {
+    -fx-text-fill: #FFFFFF; /* Màu chữ */
+    -fx-font-size: 25px; /* Kích thước font chữ */
+    -fx-font-weight: bold;
+    -fx-alignment: center; /* Căn giữa theo chiều ngang */
+    -fx-content-display: center; /* Canh giữa nội dung */
+}
+
+.boder-pane {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #0123cb;
+}
+.inside-pane {
+    -fx-background-radius: 0 10 0 10;
+    -fx-background-color: #0496f6;
+}
+.-rara-text-field {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-background-radius: 3 3 3 3;
+    -fx-effect: dropshadow(three-pass-box, #707077, 0, 4, 0,4);
+    -fx-background-color: #adb0bd;
+}
+.add-button{
+    -fx-background-radius: 20 20 20 20;
+    -fx-background-color: #26e30f;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+.err-label {
+    -fx-text-fill:  #ff0000;
+    -fx-font-weight: bold;
+}

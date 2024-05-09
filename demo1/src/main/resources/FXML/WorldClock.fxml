@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" styleClass="boder-pane" stylesheets="@../Styles/Style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.WorldClockController">
+   <AnchorPane layoutX="70.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" styleClass="inside-pane" stylesheets="@../Styles/Style.css" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+      <VBox fx:id="bottomBox" prefHeight="200.0" prefWidth="503.0" styleClass="background" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="40.0">
+         <Text fx:id="clockLabel1" fill="WHITE" layoutX="110.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-clock" text="Đồng hồ chính: " wrappingWidth="278.13670349121094">
+            <VBox.margin>
+               <Insets left="120.0" top="10.0" />
+            </VBox.margin>
+         </Text>
+         <Text fx:id="clockLabel" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-clock" text="Text" wrappingWidth="211.13670349121094">
+            <VBox.margin>
+               <Insets left="160.0" top="30.0" />
+            </VBox.margin>
+         </Text>
+      </VBox>
+      <TextField fx:id="timeZoneField" layoutX="60.0" layoutY="287.0" prefHeight="26.0" prefWidth="251.0" promptText="Nhập Múi Giờ VD:(Europe/London)" styleClass="-rara-text-field" />
+      <Button fx:id="addButton" layoutX="400.0" layoutY="281.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="82.0" styleClass="add-button" text="+Clock" />
+      <Label layoutX="62.0" layoutY="264.0" text="Nhập Múi Giờ VD:(Europe/London)" />
+   </AnchorPane>
+   <Label fx:id="errlb" layoutX="85.0" layoutY="377.0" prefHeight="18.0" prefWidth="251.0" styleClass="err-label" text=" " />
+</AnchorPane>

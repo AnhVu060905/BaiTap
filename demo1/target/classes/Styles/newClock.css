@@ -1,0 +1,12 @@
+.outside-background {
+    -fx-background-color: #c1c1cb;
+}
+.inside-background {
+    -fx-background-color: #111111;
+
+}
+.label{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
